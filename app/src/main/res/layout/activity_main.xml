@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_pink_blue_abstract_gradient_background_vector_53876_174836"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/commencer"
+        android:layout_width="260dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/roundcorners"
+        android:fontFamily="serif"
+        android:text="Commencer le Quizz !"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="@id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView4"
+        app:srcCompat="@drawable/pngwing_com__1_" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="480dp"
+        android:layout_height="193dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.947"
+        app:srcCompat="@drawable/quiz_time_blog_image_removebg_preview" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="214dp"
+        android:layout_height="217dp"
+        android:layout_marginStart="98dp"
+
+        android:layout_marginTop="232dp"
+        android:layout_marginEnd="99dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pngwing_com__3_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

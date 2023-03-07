@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blur_pink_blue_abstract_gradient_background_vector_53876_174836">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rep1"
+        android:layout_width="332dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/roundcorners"
+        android:fontFamily="serif"
+        android:shadowColor="#B32A2A"
+        android:text="Reponse 4"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rep2" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rep2"
+        android:layout_width="332dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/roundcorners"
+        android:fontFamily="serif"
+        android:shadowColor="#B32A2A"
+        android:text="Reponse 3"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rep3" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rep3"
+        android:layout_width="336dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/roundcorners"
+        android:fontFamily="serif"
+        android:shadowColor="#B32A2A"
+        android:text="Reponse 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rep4" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/rep4"
+        android:layout_width="339dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="99dp"
+        android:background="@drawable/roundcorners"
+        android:fontFamily="serif"
+        android:shadowColor="#B32A2A"
+        android:text="Reponse 1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="416dp"
+        android:layout_height="176dp"
+        android:hapticFeedbackEnabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/one__1__removebg_preview" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/questnumb"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="89dp"
+        android:background="@drawable/roundcorners"
+        android:fontFamily="serif"
+        android:shadowColor="#B32A2A"
+        android:text="1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toTopOf="@+id/rep4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="416dp"
+        android:layout_height="81dp"
+        android:autoText="false"
+        android:background="#2336063E"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:includeFontPadding="true"
+        android:text="TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#592280"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/rep4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/questnumb" />;
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
